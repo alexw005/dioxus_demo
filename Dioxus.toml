@@ -1,7 +1,7 @@
 [application]
 
 # App (Project) Name
-name = "Dioxus"
+name = "dioxus_demo"
 
 # Dioxus App Default Platform
 # desktop, web, mobile, ssr
@@ -10,21 +10,18 @@ default_platform = "web"
 # `build` & `serve` dist path
 out_dir = "docs"
 
-# resource (public) file folder
-asset_dir = "public"
-
 [web.app]
 
 # HTML title tag content
-title = "dioxus demo"
+title = "dioxus_demo"
 base_path = "dioxus_demo"
 [web.watcher]
 
 # when watcher trigger, regenerate the `index.html`
-reload_html = true
+# reload_html = true
 
 # which files or dirs will be watcher monitoring
-watch_path = ["src", "public"]
+# watch_path = ["src", "public"]
 
 # include `assets` in web platform
 [web.resource]
